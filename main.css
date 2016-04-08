@@ -1,0 +1,37 @@
+h3{
+	position: relative;
+	margin-left: 280px;
+}
+hr{
+	width: 90px;
+	border: 2px solid black ;
+	margin-bottom:50px; 
+	position: relative;
+	margin-left: 280px;
+}
+.container{
+	width:800px;
+	height: 800px;
+	margin:auto;
+}
+
+.container > div{
+	width:200px;
+	height: 200px;
+	display: inline-block;
+	margin:20px;
+	position:relative;
+	color:#fff;
+	font-size:13px;
+}
+p{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+}
+img{
+	-webkit-filter:brightness(0.7);
+}
+img:hover{
+	-webkit-filter:brightness(1);
+}
